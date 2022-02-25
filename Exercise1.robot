@@ -59,8 +59,8 @@ Access a Product via category after applying multiple filters
 
 Access a Product via Search
     Open Ebay
-    input text  id=gh-ac    ${keyword}
-    click element   //*[@id="gh-cat"]/option[14]
+    input text  id=gh-ac    ${keyword}  #input text from kolom search
+    click element   //*[@id="gh-cat"]/option[14]    #click button search
     click element   id=gh-btn   #button search
     #verifikasi search
     Validate product by keyword
